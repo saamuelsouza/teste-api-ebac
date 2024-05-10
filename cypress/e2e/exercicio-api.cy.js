@@ -1,8 +1,13 @@
 /// <reference types="cypress" />
+import cadastro from '../contracts/produtos.contract'
+
+beforeEach(() => {
+  
+});
 
 describe('Testes da Funcionalidade Usuários', () => {
 
-  it('Deve cadastrar um usuário com sucesso', () => {
+  it('Deve validar contrato de usuários', () => {
     //TODO: 
   });
 
@@ -10,7 +15,7 @@ describe('Testes da Funcionalidade Usuários', () => {
     //TODO: 
   });
 
-  it('Deve editar um usuário previamente cadastrado', () => {
+  it('Deve cadastrar um usuário com sucesso', () => {
     //TODO: 
   });
 
@@ -18,7 +23,7 @@ describe('Testes da Funcionalidade Usuários', () => {
     //TODO: 
   });
 
-  it('Deve validar contrato de usuários', () => {
+  it('Deve editar um usuário previamente cadastrado', () => {
     //TODO: 
   });
 
